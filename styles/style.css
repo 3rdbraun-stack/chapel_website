@@ -8,3 +8,13 @@ body, html {
   text-align: center;
   background-color: #f4f1ee;
 }
+.hero {
+  background-image: url("../images/chapel-interior.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
