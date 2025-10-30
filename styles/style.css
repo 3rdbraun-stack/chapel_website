@@ -43,6 +43,38 @@ body, html {
   color: gold;
 }
 
+.key-pieces {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.pieces-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.piece {
+  max-width: 300px;
+}
+
+.piece img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.piece img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
 /* ===== Hero Section ===== */
 .hero {
   background-image: url("../images/chapel-interior.JPG"); /* path from /styles/ to /images/ */
@@ -54,7 +86,16 @@ body, html {
   align-items: center;
   position: relative;
 }
-
+.history_hero {
+	background-image: url("../images/gargoyle_1.JPG");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	
 .overlay {
   background: rgba(0, 0, 0, 0.4);
   padding: 40px;
