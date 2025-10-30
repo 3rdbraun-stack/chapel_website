@@ -1,4 +1,4 @@
-/* Reset and general styling */
+/* ===== Body ===== */
 body, html {
   margin: 0;
   padding: 0;
@@ -8,8 +8,44 @@ body, html {
   text-align: center;
   background-color: #f4f1ee;
 }
+
+/* ===== Navbar ===== */
+.navbar {
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 25px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: gold;
+}
+
+/* ===== Hero Section ===== */
 .hero {
-  background-image: url("../images/chapel-interior.jpg");
+  background-image: url("../images/chapel-interior.jpg"); /* path from /styles/ to /images/ */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -17,4 +53,51 @@ body, html {
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+.overlay h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.overlay p {
+  font-size: 1.5em;
+}
+
+/* ===== Windows Section ===== */
+.windows-section {
+  padding: 100px 20px 40px; /* extra top padding to avoid overlap with fixed navbar */
+}
+
+.windows-section h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.windows-section p {
+  margin-bottom: 20px;
+}
+
+.main-image {
+  width: 80%;
+  height: auto;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+/* ===== Footer ===== */
+footer {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 40px;
+  padding-bottom: 20px;
 }
