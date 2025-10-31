@@ -87,7 +87,7 @@ body.main-page {
   position: relative;
 }
 body.art-page {
-	background-image: url("../images/gargoyle_1.JPG");
+	background-image: url("../images/gargoyle_1.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
