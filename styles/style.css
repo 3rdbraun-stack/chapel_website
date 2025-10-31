@@ -81,11 +81,18 @@ body.main-page {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  margin: 0;
+  color: white;
 }
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 40px;
+	border-radius: 10px;
+	width: 60%;
+	margin: 100px auto;
+}
+
 body.art-page {
 	background-image: url("../images/gargoyle_1.jpg");
 	background-size: cover;
