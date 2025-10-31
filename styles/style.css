@@ -118,6 +118,39 @@ h1, p {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
+.pieces-containter {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 40px;
+	margin_top: 60px;
+}
+
+.piece {
+	text-align: center;
+	max-width: 300px;
+}
+
+.piece img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	border: 3px solid #ccc;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.piece img:hover {
+	transform: scale(1.05);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.piece h3 {
+	color: white;
+	text-shadow: 2px 2px 8px rgba(0,0,0,0.7):
+	margin-bottom: 10px;
+}
+
 /* ===== Windows Section ===== */
 .windows-section {
   padding: 100px 20px 40px; /* extra top padding to avoid overlap with fixed navbar */
