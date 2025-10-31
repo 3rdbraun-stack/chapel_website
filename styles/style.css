@@ -93,12 +93,22 @@ body.art-page {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	
+}
+
+body.history-page {
+	background-image: url("../images/Thayer.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin: 0;
+	color: white;
+}
+
 .overlay {
   background: rgba(0, 0, 0, 0.5);
   padding: 40px;
   border-radius: 10px;
-  width: 60%
+  width: 60%;
   text-align: center;
   color: white;
   margin: 100px auto;
@@ -118,7 +128,7 @@ h1, p {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
-.pieces-containter {
+.pieces-container {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -147,7 +157,7 @@ h1, p {
 
 .piece h3 {
 	color: white;
-	text-shadow: 2px 2px 8px rgba(0,0,0,0.7):
+	text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
 	margin-bottom: 10px;
 }
 
